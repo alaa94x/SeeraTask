@@ -17,7 +17,7 @@ public String getCheckOutDate(){
     SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
     Calendar c = Calendar.getInstance();
     c.setTime(new Date());
-    c.add(Calendar.DATE, 7); // Adding 5 days
+    c.add(Calendar.DATE, 7); // Adding 7 days
     String output = sdf.format(c.getTime());
 return output;
 }
