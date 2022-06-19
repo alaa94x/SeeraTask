@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite name="API Test Suite" verbose="1">
+
+    <listeners>
+
+        <listener class-name="ExtentReporterNG"/>
+
+    </listeners>
+
+    <test name="Hotels API Test">
+
+        <classes>
+
+            <class name="Hotels"/>
+
+        </classes>
+
+    </test>
+
+
+</suite>
